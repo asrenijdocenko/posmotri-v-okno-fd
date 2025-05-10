@@ -13,14 +13,17 @@ html {
 
 .page {
   display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
-  margin: 0 auto;
+  margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   
+
 }
 
 h1,
@@ -63,7 +66,6 @@ ol {
   gap: 27px;
   align-items: end;
   justify-items: end;
-  place-self: center;
   margin: 0 auto;
 }
 
@@ -354,7 +356,6 @@ button:focus-visible {
   flex-direction: column;
   line-height: 100%;
 }
-
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
