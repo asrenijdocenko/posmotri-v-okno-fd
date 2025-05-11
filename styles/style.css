@@ -57,16 +57,12 @@ ol {
 
 .content {
   width: 1140px;
-  height: 100%;
-  padding: 136px 0;
-  display: grid;
+  display: grid;  
   grid-template-areas: "result details";
-  grid-template-rows: 1fr 0.9fr;
-  grid-template-columns: 1fr 1.1fr;
+  grid-template-columns: 1fr auto;
   gap: 27px;
   align-items: end;
   justify-items: end;
-  margin: 0 auto;
 }
 
 .result {
